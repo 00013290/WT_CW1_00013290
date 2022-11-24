@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBU</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <a href="index.html">
+                <img src="assets/nbu.png" alt="">
+            </a>
+            <button id="btn-mobile">☰</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href="services.html"><span>Services</span></a></li>
+                <li><a href="loans.html"><span>Loans</span></a></li>
+                <li><a href="faq.html"><span>FAQ</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Loans</h2>
+    <section id="loans" class="loans">
+        <div>
+            <div class="loan-option">
+                <div>
+                    <button class="btn active" onclick="filterSelection('1')">Overdraft</button>
+                    <button class="btn" onclick="filterSelection('2')">Consumer Loan</button>
+                    <button class="btn" onclick="filterSelection('3')">Car Loan</button>
+                </div>
+            </div>
+            <div class="loan-info">
+                <div class="filterDiv 1">
+                    <h4>Overdraft is provided to employees of enterprises and organizations serviced by the NBU to
+                        salary plastic cards for personal needs</h4>
+                    <div class="loan-detail">
+                        <div class="loan-period">
+                            50 mln UZS <br> up to 1 year
+                        </div>
+                        <div class="loan-img">
+                            <img src="assets/over-loan.png" id="last-img-loan" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv 2">
+                    <h4>Loans are provided for consumer needs in the following types of goods and services within
+                        the Republic of Uzbekistan</h4>
+                    <div class="loan-detail">
+                        <div class="loan-period">
+                            49 mln UZS <br> up to 3 years
+                        </div>
+                        <div class="loan-img">
+                            <img src="assets/con-loan.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv 3">
+                    <h4>The loan is provided for the purchase of any models of passenger vehicles produced in the
+                        Republic of Uzbekistan</h4>
+                    <div class="loan-detail">
+                        <div class="loan-period">
+                            500 mln UZS <br> up to 3 years
+                        </div>
+                        <div class="loan-img">
+                            <img src="assets/car-loan.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer">
+            <div class="row">
+                <a href="#"><img src="assets/icons8-twitter.svg" alt=""></a>
+                <a href="#"><img src="assets/icons8-facebook.svg" alt=""></a>
+                <a href="#"><img src="assets/icons8-telegram-app.svg" alt=""></a>
+                <a href="#"><img src="assets/icons8-linkedin.svg" alt=""></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                This website is a Web Technology module coursework and does not represent an actual company.
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
